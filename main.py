@@ -10,7 +10,7 @@ from random import shuffle
 import time
 
 # Глобальные настройки
-is_program_active = False       # Флаг активности программы
+is_program_active = True       # Флаг активности программы
 
 def shuffle_word(word: str) -> str:
     """Перемешивает буквы в слове."""
